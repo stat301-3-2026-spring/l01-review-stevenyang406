@@ -108,7 +108,7 @@ What does it mean to be a mechanistic model?
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+A mechanistic model assumes that the distribution of the outcome variable can be described with some equation or known form. One simple version of a mechanistic model is a simple linear regression, which assumes an increase/decrease in an explanatory variable changes the outcome variable by a certain amount. 
 
 :::
 
@@ -119,7 +119,7 @@ What does it mean to be an empirically driven model?
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Empirically driven models like random forest use the data itself to predict the outcome variable with no assumptions about the form of the outcome variable's distribution.
 
 :::
 
@@ -141,7 +141,7 @@ In general, is a mechanistic or empirically driven model easier to interpret? Ex
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Mechanistic models are easier to interpret because changes in one variable can be directly linked to a change in the outcome variable, while empirically driven models can be far more complicated.
 
 :::
 
@@ -152,7 +152,7 @@ How does mechanistic and empirically driven model terminology relate to the idea
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Empirically driven models are more flexible since they are not bound to a specific equation or known form.
 
 :::
 
@@ -163,7 +163,7 @@ Describe the bias-variance trade-off when considering the use of a mechanistic o
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Generally, mechanistic models tend to have higher bias and lower variance since you are essentially fixed to how biased the equation or form you are using is. Empirically driven modells that are more flexible generally have low bias since they can more accurately find more complicated relationships, but variance can be high if the model is fitting to noise in the data.
 
 :::
 
@@ -174,7 +174,7 @@ Explain the difference between a regression and classification machine learning 
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Classification problems provide prediction for categorical variables (such as whether someone on the Titanic will survive or not) while regression problems provide predictions for continuous numeric variables like house prices.
 
 :::
 
@@ -185,7 +185,7 @@ When splitting the data, why is it useful to stratify by the outcome/target vari
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+It is important that the smaller sets of data you have are generally representative of the full data. This reduces the risk that your models will be off because the training data was randomly not representative of the data as a whole.
 
 :::
 
@@ -218,7 +218,7 @@ Briefly describe model tuning and why we use it.
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+We use model tuning because many model types have hyperparameters to set. In order to get the best possible performance, tuning is necessary to find which hyperparameters have the best metrics.
 
 :::
 
@@ -229,7 +229,7 @@ What are two common performance metrics when dealing with a regression ML proble
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+RMSE and MAE.
 
 :::
 
@@ -238,7 +238,7 @@ What are two common performance metrics when dealing with a classification ML pr
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Accuracy and ROC-AUC.
 
 :::
 
@@ -253,7 +253,7 @@ A company with a subscription based service (for example Netflix, Disney+, New Y
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+This is an inferential problem because we are testing the hypothesis that higher service calls is important to determining churn likelihood.
 
 :::
 
@@ -262,7 +262,7 @@ YOUR SOLUTION HERE
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+This is a prediction problem because we are using data to predict how likely a specific customer is to churn based on other explanatory variables we have available.
 
 :::
 
