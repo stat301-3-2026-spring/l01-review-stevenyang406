@@ -44,7 +44,15 @@ Provide a brief outline/overview of the steps involved in a supervised machine l
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+- Defining Problem
+- EDA
+- Data Splitting
+- Feature Engineering
+- Data Preprocessing
+- Hyperparameter Tuning
+- Model Analysis/Selection
+- Final Model Training
+- Model Evaluation
 
 :::
 
@@ -55,7 +63,7 @@ Explain the difference between supervised and unsupervised learning.
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Supervised learning tends to have a set question in mind. For regression problems, it may be predicting the price of a home. For classification problems, it may be predicting whether a person on the Titanic survived. Unsupervised learning does not have a set problem in mind and instead tries to find patterns or structure within a set of unlabeled data.
 
 :::
 
@@ -68,7 +76,7 @@ In general, we can classify a model by its purpose into 1 of the 3 categories be
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Descriptive models tend to focus on summarizing characteristics of historical data visually. One example could be showing a graph of changing average temperatures globally over time.
 
 :::
 
@@ -77,7 +85,7 @@ YOUR SOLUTION HERE
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Inferential models involve hypothesis testing and test whether certain variables have statistically significant effects on a given outcome variable.
 
 :::
 
@@ -86,8 +94,7 @@ YOUR SOLUTION HERE
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
-
+Predictive models use past data to forecast a future observation's outcome variables based on a set of explanatory variables. For instance, one predictive model could be used to estimate a house's sale price based on the square footage and number of rooms.
 :::
 
 ### Question 4 
@@ -189,7 +196,7 @@ Briefly describe how v-fold cross validation with repeats is used to estimate te
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+V-fold cross validation randomly splits the training data into v folds. Each of the folds is used as the assessment set once while the other v-1 folds are used to train the model. The RMSE is calculated, then the process is repeated using a different fold as the assessment set. After all folds have been used as the assessment set once, the training data is split into v folds again until the number of repeats is reached. All of these RMSEs are then averaged to give an estimate of test RMSE.
 
 :::
 
