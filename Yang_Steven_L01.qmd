@@ -108,7 +108,7 @@ What does it mean to be a mechanistic model?
 ::: {.callout-tip icon="false"}
 ## Solution
 
-A mechanistic model assumes that the distribution of the outcome variable can be described with some equation or known form. One simple version of a mechanistic model is a simple linear regression, which assumes an increase/decrease in an explanatory variable changes the outcome variable by a certain amount. 
+A mechanistic model assumes that the distribution of the outcome variable can be explained by some theory of how other variables change.
 
 :::
 
@@ -130,7 +130,7 @@ How does the mechanistic and empirically driven model terminology relate to the 
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Mechanistic models tend to be parametric because parametric models are those that follow a certain equation or functinoal form. Nonparametric models have no assumptions about the data and can find more complex relationships from studying the data exclusively, which makes it empirically driven.
 
 :::
 
@@ -163,7 +163,7 @@ Describe the bias-variance trade-off when considering the use of a mechanistic o
 ::: {.callout-tip icon="false"}
 ## Solution
 
-Generally, mechanistic models tend to have higher bias and lower variance since you are essentially fixed to how biased the equation or form you are using is. Empirically driven modells that are more flexible generally have low bias since they can more accurately find more complicated relationships, but variance can be high if the model is fitting to noise in the data.
+Generally, mechanistic models tend to have higher bias and lower variance since you are essentially fixed to how biased the equation or form you are using is. Empirically driven models that are more flexible generally have low bias since they can more accurately find more complicated relationships, but variance can be high if the model is fitting to noise in the data.
 
 :::
 
@@ -185,7 +185,7 @@ When splitting the data, why is it useful to stratify by the outcome/target vari
 ::: {.callout-tip icon="false"}
 ## Solution
 
-It is important that the smaller sets of data you have are generally representative of the full data. This reduces the risk that your models will be off because the training data was randomly not representative of the data as a whole.
+It is important that the smaller sets of data you have are generally representative of the full data. This reduces the risk that your models will be off because the distribution of the outcome variable is substantially different in different splits. This is especially important when there is a class imbalance.
 
 :::
 
@@ -207,7 +207,7 @@ When might we use a bootstrap resampling procedure instead of v-fold cross valid
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+One scenario where a bootstrap resampling procedure would be more appropriate would be when you have limited data because bootstrap resampling allows you to make better estimates of RMSE with less variance compared to v-fold cross validation estimates.
 
 :::
 
